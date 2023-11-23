@@ -43,14 +43,14 @@ namespace Wema.BIT.User
                 
             };
 
-            var userPaymnets = users.Where(x => x.Id == 1);
+            var userTransactions = users.Where(x => x.Id == 1);
             var u = new List<User>();
 
             
 
-            var json = JsonConvert.SerializeObject(userPaymnets, Formatting.Indented);
+            var json = JsonConvert.SerializeObject(userTransactions, Formatting.Indented);
 
-            foreach (var user in userPaymnets)
+            foreach (var user in userTransactions)
             {
                 if(user.FirstName=="Tomi" || user.LastName == "Johnson")Console.WriteLine("First Name : " + user.FirstName +" Last Name : " + user.LastName);
                 
@@ -90,6 +90,18 @@ namespace Wema.BIT.User
         public int UserId { set; get; } 
 
     }
+
+
+    public class Account
+    { 
+        public int Id { set; get; }
+        public string AccountNumber {  set; get; }
+        public string AccountName {  set; get; }
+        public string BVN { set; get; }
+        public string PhoneNumber { set; get; }
+        public int UserId {  get; set; }
+    }
+
 }
 
 
