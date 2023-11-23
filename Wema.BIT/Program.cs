@@ -11,14 +11,20 @@ namespace Wema.BIT.User
         {
             List<Transaction> Transaction = new List<Transaction>()
             {
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
                 new Transaction() {Id =1,UserId=1, Amount=1233},
                 new Transaction() {Id =2,UserId=2, Amount=1233},
                 new Transaction() {Id =3,UserId=3, Amount=1233},
                 new Transaction() {Id =4,UserId=4, Amount=1233},
                 new Transaction() {Id =5,UserId=5, Amount=1233},
                 new Transaction() {Id =6,UserId=1, Amount=1233},
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
             };
 
             
