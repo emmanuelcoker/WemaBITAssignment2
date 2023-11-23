@@ -13,8 +13,7 @@ namespace Wema.BIT.User
                 new Payment() {Id =2,UserId=2, Amount=1233},
                 new Payment() {Id =3,UserId=3, Amount=1233},
                 new Payment() {Id =4,UserId=4, Amount=1233},
-                new Payment() {Id =5,UserId=5, Amount=1233},
-                new Payment() {Id =6,UserId=1, Amount=1233},
+                new Payment() {Id =5,UserId=5, Amount=1233}
             };
 
             
